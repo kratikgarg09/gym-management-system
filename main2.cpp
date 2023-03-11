@@ -310,8 +310,7 @@ void fitness()
 
 void fnManage()
 {
-    // while(1)
-    // {
+    
     system("cls");
     int option;
     member m1;
@@ -439,7 +438,6 @@ void fnManage()
     default:
         fnManage();
     }
-    // }
 }
 
 int main()

@@ -321,7 +321,7 @@ void fnManage()
     cout << "\n\tPress 4 for EDIT MEMBER DETAILS";
     cout << "\n\tPress 5 for DELETE MEMBER";
     cout << "\n\tPress 6 for fitness tips...";
-    cout << "\n\tPress 7 for GO BACK TO MAIN MENU";
+    cout << "\n\tPress 7 for exit the program";
     cout << "\n\t**********************************************";
     cout << "\n\n\tOption: ";
     cin >> option;
@@ -431,7 +431,7 @@ void fnManage()
     case 7:
     {
         system("cls");
-        fnManage();
+        exit(0);
     }
     break;
 
